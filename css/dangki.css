@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: auto; */
+    background-image: linear-gradient(rgb(138, 223, 245), rgb(7, 22, 243));
+    width: 100vw;
+    height: 100vh;
+}
+.dangky{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-top: 50px;
+    padding-top: 30px;
+    background: white;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.button{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(93, 93, 206);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    font-size: 15px;
+}
+.phone{
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+.hoten{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.matkhau{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nhaplaimatkhau{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

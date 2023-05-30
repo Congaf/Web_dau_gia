@@ -1,0 +1,95 @@
+.slider {
+    background-color: rgb(182, 173, 166);
+    padding: 30px;
+}
+.wrp {
+    width: 100%;
+    margin-top: 0;
+    float: left;
+    padding: 20px;
+    background: rgb(240, 232, 232);
+    border: 1px solid rgb(167, 55, 55);
+}
+.profiles {
+    align-items: center;
+    color: #242424;
+    display: flex;
+    font-size: 13px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.account .profiles a {
+    align-items: center;
+    display: flex;
+}
+.profiles .icon {
+    display: block;
+    height: 26px;
+    width: 26px;
+    font-size: 25px;
+    color: #ffa800;
+}
+.icon {
+    background-size: 100%;
+    display: inline-block;
+}
+.accountName {
+    font-size: 13px;
+}
+.Head {
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.name {
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+.item2 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.item2 .label {
+    width: 130px;
+}
+
+.item2 input {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex: 1;
+    font-size: 14px;
+    height: 34px;
+    padding: 0 10px;
+    padding-left: 10px;
+    resize: none;
+}
+.footerrr {
+    padding: 0 20px;
+    text-align: center;
+}
+.btnnn {
+    background: #348ec9;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 60px;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    margin: 15px;
+    text-transform: uppercase;
+    min-width: 60px;
+    position: relative;
+    transition: color .1s ease;
+}
